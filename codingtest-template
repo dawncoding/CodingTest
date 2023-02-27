@@ -1,0 +1,19 @@
+Template:
+1. Clarify questions:
+Input: int, string, char, boolean,
+Output: array, object, string array,… 
+Constraints: input size(overflow, underflow),
+Edge Cases: 예외 처리를 어떻게 해야하는지 
+
+2. Brute force - time & space complexity 
+    A. Data structure:
+    B. Algorithm: 
+    C. Time Complexity:
+    D. Space Complexity:
+    E. 수도 코드
+    F. Code implementation: —- ask interviewer 
+
+3. Optimal Solution: Same process as above but faster time complexity and less space complexity
+   …. Final : code implement
+
+4. Test Cases 
