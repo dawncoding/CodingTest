@@ -4,20 +4,10 @@ O: int h, m
 Constraints: 0 ≤ a ≤ 23, 0 ≤ b ≤ 59, 0 ≤ c ≤ 1,000
 Edge Cases:
 1. b+c >= 60 -> 2. a = 23 -> 3. 2시간 이상일 때
-
-if (b+c) >= 60:
-    몫 = (b+c)//60 
-    h =  몫 + a
-    m = (b+c)%60
-    if a == 23:
-        h = 0
-        if 몫 >= 2:
-            h = h + 몫 - 1
-
-print(h, m)
 """
 
 """
+틀린 풀이
 a, b = input().split()
 c = int(input())
 a = int(a)
